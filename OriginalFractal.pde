@@ -6,7 +6,7 @@ public void setup(){
 
 public void draw(){
   translate(400, 400);
-  fractal(360);
+  fractal(100);
 
 }
 
@@ -24,10 +24,10 @@ public void fractal(double d){
        popMatrix();
   
   }else{
-    fractal(d-20);
-    fractal(d-40);
+    fractal(d-30);
     fractal(d-60);
-    fractal(d-80);
+    fractal(d-90);
+   
   }
        
    
