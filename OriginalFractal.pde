@@ -17,15 +17,9 @@ public void fractal(double d){
   if(d<=0){
        pushMatrix();
        rotate((float)(d*Math.PI/180));
-<<<<<<< HEAD
        fill(0,255,0);
        rect(0,0,200,200);
        fill(255,0,0);
-=======
-       fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
-       rect(0,0,200,200);
-       fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
->>>>>>> 2dc803c46fff6723e4e1497099b7526fa0011059
        ellipse(0,300,50,50);
        ellipse(0,-300,50,50);
        ellipse(300,0,50,50);
